@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+    padding: 13px;
+}
+
+li {
+
+    display: inline-block;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.li {
+    margin-right: 100px;
+}
+
+.option a {
+    transition: all ease-in .150s;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1F1D36;
+}
+
+.option a:hover {
+
+    color: #4d007c;
+
+}
+
+
+.part2 {}
+
+.hello {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.color-code {
+    margin-top: 300px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #1F1D36;
+    color: white;
+    height: fit-content;
+    width: 600px;
+}
+.btn{
+    
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    height: 35px;
+    outline: none;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(153, 50, 204, 0.808);
+    transition: all ease-in-out .150s;
+}
+
+button:hover{
+
+    background-color: rgb(153, 50, 204);
+
+}
